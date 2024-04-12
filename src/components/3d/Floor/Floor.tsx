@@ -12,7 +12,8 @@ const Floor: VariableFC<'mesh', FloorProps, 'children' | 'receiveShadow'> = ({
       receiveShadow
       {...props}
     >
-      <boxGeometry args={[20, 1, 10]} />
+      <boxGeometry args={[20, 1, 20]} />
+
       <meshPhysicalMaterial color='white' />
     </mesh>
   );

@@ -19,7 +19,12 @@ const Scene: FC<SceneProps> = () => {
         }}
         className={cn(styles.canvas)}
       >
-        <Floor />
+        <ambientLight
+          color={'white'}
+          intensity={0.3}
+        />
+
+        <Floor position={[3, -1, -3]} />
       </Canvas>
     </div>
   );

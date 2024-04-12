@@ -15,6 +15,7 @@ import type { BoxProps } from './Box.props';
 const Box: VariableFC<'mesh', BoxProps, 'rotation'> = ({
   receiveShadow = true,
   castShadow = true,
+  size = 3,
   ...props
 }) => {
   // Rotation
@@ -29,9 +30,6 @@ const Box: VariableFC<'mesh', BoxProps, 'rotation'> = ({
     setRotateY(prev => (prev += rotationStep));
     setRotateZ(prev => (prev += rotationStep));
   });
-
-  // Size of box
-  const size = 3;
 
   const lupaglazikTexture = useLoader(TextureLoader, lupaglazikImg.src);
   const gleb1Texture = useLoader(TextureLoader, gleb1Img.src);

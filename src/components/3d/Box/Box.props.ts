@@ -1,1 +1,3 @@
-export interface BoxProps {}
+export interface BoxProps {
+  size?: number;
+}

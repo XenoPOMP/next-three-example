@@ -31,7 +31,10 @@ const Scene: FC<SceneProps> = () => {
 
         <Light />
 
-        <Box position={[0, 1, 0]} />
+        <Box
+          position={[0, 1, 0]}
+          size={4}
+        />
       </Canvas>
     </div>
   );

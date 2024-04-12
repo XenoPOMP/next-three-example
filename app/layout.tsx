@@ -38,8 +38,8 @@ export async function generateMetadata(): Promise<Metadata> {
       },
     },
     openGraph: generateOpenGraph({
-      title: 'Main page',
-      description: 'This is a main page',
+      title: 'Глебовское',
+      description: 'Бытие Глебовское совсем не простое...',
     }),
   });
 }

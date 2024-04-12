@@ -26,7 +26,6 @@ const Scene: FC<SceneProps> = () => {
         />
 
         <LightBulb position={[0, 4, 0]} />
-
         <Box position={[0, 1, 0]} />
       </Canvas>
     </div>

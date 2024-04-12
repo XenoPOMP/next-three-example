@@ -12,7 +12,10 @@ import type { SceneProps } from './Scene.props';
 
 const Scene: FC<SceneProps> = () => {
   return (
-    <div className={cn(styles.scene)}>
+    <div
+      className={cn(styles.scene)}
+      aria-hidden
+    >
       <Canvas
         shadows
         camera={{

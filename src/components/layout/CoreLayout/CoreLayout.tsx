@@ -1,6 +1,8 @@
 import { type PropsWith } from '@xenopomp/advanced-types';
 import { type FC } from 'react';
 
+import SocialMedia from '@/src/components/layout/SocialMedia';
+
 import type { CoreLayoutProps } from './CoreLayout.props';
 
 /**
@@ -22,7 +24,11 @@ import type { CoreLayoutProps } from './CoreLayout.props';
 const CoreLayout: FC<PropsWith<'children', CoreLayoutProps>> = ({
   children,
 }) => {
-  return <>{children}</>;
+  return (
+    <>
+      {children} <SocialMedia />
+    </>
+  );
 };
 
 export default CoreLayout;

@@ -6,10 +6,10 @@ import type { LightProps } from './Light.props';
 
 const Light: VariableFC<'pointLight', LightProps, 'ref'> = ({
   children,
-  position = [0, 4, 0],
+  position = [-1.5, 4, 3],
   castShadow = true,
   color = '#fff',
-  intensity = 1,
+  intensity = 5,
   ...props
 }) => {
   return (

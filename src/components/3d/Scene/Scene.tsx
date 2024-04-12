@@ -23,7 +23,7 @@ const Scene: FC<SceneProps> = () => {
       >
         <ambientLight
           color={'white'}
-          intensity={0.2}
+          intensity={0.3}
         />
 
         <Light />

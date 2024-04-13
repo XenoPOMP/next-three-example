@@ -6,6 +6,7 @@
 # Binary files should be encoded as binary
 *.png binary
 *.webp binary
+*.ico binary
 *.jpg binary
 *.jpeg binary
 *.gif binary

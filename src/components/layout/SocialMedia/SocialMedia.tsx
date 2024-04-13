@@ -1,5 +1,3 @@
-'use client';
-
 import cn from 'classnames';
 import Link from 'next/link';
 import { type FC } from 'react';
@@ -12,10 +10,13 @@ const SocialMedia: FC<SocialMediaProps> = () => {
       className={cn(
         'fixed bottom-[10px] left-[10px] text-white/80 hover:text-white z-20',
       )}
+      aria-hidden
     >
       <Link
         href={'https://github.com/XenoPOMP/next-three-example'}
         target={'_blank'}
+        aria-label={'GitHub repo link'}
+        aria-hidden={false}
       >
         <svg
           width='24'

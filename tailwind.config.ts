@@ -24,7 +24,7 @@ const tailwindConfig: Config = {
     CustomClassesPlugin(),
     tailwindThemer({
       defaultTheme: {
-        extend: lightTheme,
+        extend: darkTheme,
       },
       themes: [
         {
